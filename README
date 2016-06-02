@@ -3,9 +3,9 @@ Project : Clone page http://mezzanine.jupo.org/
 How to run :
 
 	Checkout from git@github.com:git@github.com:minhtuan126/Training.git
-	Go to DemoProject, double click index.html
+	Go to Training, double click index.html
 
-Contributing
+Contributing :
 
     Create your feature branch with git checkout -b feature/mezzanine
     Add all file to local with git add file-name
