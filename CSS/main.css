@@ -1,0 +1,43 @@
+.body {
+	margin: 0px; 
+	font-family: Helvetica, Arial, sans-serif}
+.header {
+	}
+
+.t-header {
+	height:40px;
+	background:rgb(229, 226, 222); }
+
+.imglogo {
+	width: 150px; 
+	height: 150px; }
+
+.b-header {
+	width: 100%;
+	height: 300px; }
+
+.b-header div {
+	float: left;}
+
+.logo {
+	width: 14%; 
+	padding: 60px 0px 20px 60px; }
+
+.bc-header {
+	width: 50%; 
+	padding: 60px 0px 20px 0px; }
+
+.br-header	{
+	width: 20%; 
+	padding: 60px 0px 20px 0px;}
+
+.title {
+	text-transform : uppercase;
+	font-size : 14px;
+	color:rgb(189, 54, 47);}
+
+/*.content {
+	width:100%;
+	padding:20px 50px; }
+.b-header div {
+	float: left;}*/
