@@ -1,10 +1,6 @@
 ## Project : Clone page http://mezzanine.jupo.org/
 
-## How to run :
-	
-	Checkout from git@github.com:git@github.com:minhtuan126/Training.git
-	Go to Training, double click index.html
-
+## How to run : ksfkiiiii
 ## Contributing
 	
 	Create your feature branch with 'git checkout -b feature/mezzanine'
