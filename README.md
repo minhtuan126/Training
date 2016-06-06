@@ -1,7 +1,7 @@
 ## Project : Clone page http://mezzanine.jupo.org/
 
 ## How to run : 
-ksfkiiiii
+	ksfkiiiii
 ## Contributing
 	
 	Create your feature branch with 'git checkout -b feature/mezzanine'
