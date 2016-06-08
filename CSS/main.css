@@ -25,10 +25,10 @@
 
 .bc-header {
 	width: 50%; 
-	padding: 60px 0px 20px 0px; }
+	padding: 60px 80px 20px 0px; }
 
 .br-header	{
-	width: 20%; 
+	width: 22%; 
 	padding: 60px 0px 20px 0px;}
 
 .title {
@@ -48,18 +48,48 @@
 	position: absolute;
 	right: 0px; }
 
-.bnt-htop {
-	margin: 5px 30px 15px 10px; 
-	padding: 12px 12px 12px 12px;
-	border-radius: 4px;
-	background: rgb(189, 54, 47);
+.bnt-text {	
 	font-weight:bold;
 	font-size: 16px; }
 
 .txt_btntop {
-	color: #ffffff ; }
-/*.content {
-	width:100%;
-	padding:20px 50px; }
-.b-header div {
-	float: left;}*/
+	color: #ffffff ; 
+	display: inline-block;
+	border-radius: 4px;
+	background: rgb(189, 54, 47);
+	margin: 10px 30px 15px 10px; 
+	padding: 12px 25px 12px 25px;
+	text-transform : uppercase; 
+	text-decoration: none; }
+
+.btn-hbottom {
+	color: #000000 ; 
+	display: inline-block;
+	border-radius: 4px;
+	background: rgb(229, 226, 222);
+	margin: 10px 30px 15px 10px; 
+	padding: 15px 30px 15px 35px;
+	text-decoration: none; }
+
+.devide_content {
+	margin: 0px 60px 0px 60px; 
+  	background: rgb(229, 226, 222);
+  	height: 3px;
+}
+
+.content_main div {
+	float: left;}
+
+.l-content {
+	width: 70%; 
+	padding: 40px 0px 20px 60px; }
+
+.r-content {
+	width: 25%; 
+	padding: 40px 0px 20px 0px; }
+
+
+.b-content {
+	width: 100%; 
+	padding: 60px 0px 20px 0px; 
+	display: inline-block;}
