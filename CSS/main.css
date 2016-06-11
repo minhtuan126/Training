@@ -70,8 +70,8 @@
  display: inline-block;
  border-radius: 4px;
  background: rgb(189, 54, 47);
- margin: 10px 30px 15px 10px; 
- padding: 12px 20px 12px 15px;
+ margin: 10px 0px 10px 0px; 
+ padding: 12px 30px 12px 30px;
  text-transform: uppercase; 
  text-decoration: none; 
  }
@@ -81,10 +81,21 @@
  display: inline-block;
  border-radius: 4px;
  background: rgb(229, 226, 222);
- margin: 10px 30px 15px 10px; 
- padding: 15px 20 15px 15px;
+ margin: 10px 0px 10px 0px; 
+ padding: 15px 38px 15px 38px;
  text-decoration: none; 
  }
+
+.txt_btnrightContent {
+ color: #ffffff; 
+ display: inline-block;
+ border-radius: 4px;
+ background: rgb(189, 54, 47);
+ margin: 10px 0px 15px 0px; 
+ padding: 12px 30px 12px 30px;
+ text-transform: uppercase; 
+ text-decoration: none; 
+}
 
 .devide_content {
  margin: 0px 60px 0px 60px; 
@@ -97,7 +108,7 @@
  }
 
 .left-main-content {
- width: 68%; 
+ width: 67%; 
  padding: 40px 30px 0px 60px; 
  }
 
@@ -174,5 +185,87 @@ h3 {
 .drawBoxContent {
  border-radius: 4px;
  background: #222;
- padding: 20px 20px 20px 20px;
+ padding: 20px 5px 20px 5px;
+ margin: 0px 10px 0px 5px;
+ font-size: 13px;
+ font-family: Menlo, Monaco, 'Andale Mono', 'lucida console', 'Courier New', monospace;
+}
+
+.first-footer {
+ padding: 0px 30px 20px 60px; 
+ display: inline-block;
+ }
+
+.second-footer {
+ padding: 0px 30px 20px 60px; 
+ display: inline-block;
+ overflow: auto;
+ width: 100%
+}
+
+.image-footer {
+ text-align: center;
+}
+
+.img-logo-footer {
+ height: 55px;
+}
+
+.title-span-box {
+ font-style: italic;
+ color: #555;
+}
+
+.content-span-box {
+ font-style: italic;
+ color: #08c;
+ padding-bottom: 15px;
+}
+
+.boxButton {
+ padding: 15px;
+ overflow: auto;
+ width: 100%
+}
+
+.singleButton {
+ padding: 0px 100px 0px 0px
+}
+
+.img_btn_small {
+ padding: 7px;
+ margin-right: 10px;
+ background: rgb(189, 54, 47);
+}
+
+.content-right-finish {
+ font-style: italic;
+ padding: 20px 0px 20px 0px;
+}
+
+.txt-link-visit {
+ color: #ffffff; 
+ display: inline-block;
+ border-radius: 4px;
+ background: rgb(189, 54, 47);
+ padding: 5px 5px 5px 5px;
+ text-transform: uppercase; 
+ text-decoration: none; 
+}
+
+.first-footer {
+ background: rgb(229, 226, 222);
+ padding: 20px 30px 50px 60px;
+}
+
+.details-content-footer div{
+ float: left
+}
+
+.content-first-footer {
+	width: 30%;
+}
+
+.content-second-footer {
+	width: 100%;
 }
