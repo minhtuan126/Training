@@ -11,6 +11,10 @@
  background: rgb(229, 226, 222); 
  }
 
+.comment {
+ color: #999;
+}
+
 .imglogo {
  width: 150px; 
  height: 150px; 
@@ -119,7 +123,7 @@
 
 
 .bottom-main-content {
- padding: 0px 30px 20px 60px; 
+ padding: 0px 30px 50px 60px; 
  display: inline-block;
  float: left;
  }
@@ -136,11 +140,15 @@ h3 {
  font-size: 22px;
  font-height: 24px;
  color: rgb(189, 54, 47);
+ text-transform: uppercase; 
 }
 
 .first-column-content {
- width: 22%;
- padding: 0px 30px 0px 0px; 
+ width: 20%;
+ padding: 0px 40px 0px 0px; 
+ color: #999;
+ font-size: 14px;
+ line-height: 150%;
 }
 
 .feature-image {
@@ -163,7 +171,6 @@ h3 {
 .view-all {
  text-decoration: none;
  color: #999;
- 
  font-style: italic;
 }
 
@@ -217,11 +224,13 @@ h3 {
 }
 
 .image-footer {
+ margin: 30px 0px 0px 0px;
  text-align: center;
 }
 
 .img-logo-footer {
  height: 55px;
+ padding: 0px 15px 0px 15px;
 }
 
 .title-span-box {
@@ -238,11 +247,17 @@ h3 {
 .boxButton {
  padding: 15px;
  overflow: auto;
- width: 100%
+ width: 100%;
+}
+
+.styleBtnBold {
+ font-weight: bold;
+ color: #000000;
+ text-transform: uppercase;
 }
 
 .singleButton {
- padding: 0px 100px 10px 0px
+ padding: 0px 70px 10px 0px
 }
 
 .img_btn_small {
@@ -255,6 +270,9 @@ h3 {
 .content-right-finish {
  font-style: italic;
  padding: 20px 0px 20px 0px;
+ line-height: 150%;
+ color: #999;
+ font-size: 14px;
 }
 
 .txt-link-visit {
@@ -265,6 +283,8 @@ h3 {
  padding: 5px 5px 5px 5px;
  text-transform: uppercase; 
  text-decoration: none; 
+ font-weight: bold;
+ font-size: 16px;
 }
 
 .first-footer {
@@ -279,6 +299,9 @@ h3 {
 .content-first-footer {
  width: 30%;
  margin: 5px 30px 5px 0px;
+ font-size: 14px;
+ line-height: 150%;
+ color: #999;
 }
 
 .content-second-footer {
@@ -296,6 +319,9 @@ a:hover, a:focus {
 
 li {
  margin: 0px 0px 0px -30px;
+ font-size: 14px;
+ line-height: 150%;
+ color: #999;
 }
 
 .lsmall-content {
@@ -305,26 +331,64 @@ li {
 .left_img_button {
  position: absolute;
  background: #197499;
- padding: 10px 18px 10px 18px;
+ padding: 12px 18px 12px 18px;
  border: 3px solid #ffffff;
  border-radius: 25px;
  color: #ffffff;
  left: 15px;
  top: 40%;
+ opacity: 0.5;
+ font-weight: bold;
 }
 
 .right_img_button {
  position: absolute;
  background: #197499;
- padding: 10px 18px 10px 18px;
+ padding: 12px 18px 12px 18px;
  border: 3px solid #ffffff;
  border-radius: 25px;
  color: #ffffff;
  right: 15px;
  top: 40%;
+ opacity: 0.5;
+ font-weight: bold;
 }
 
 .left_img_button:hover, .left_img_button:focus, .right_img_button:hover, .right_img_button:focus {
  text-decoration: none;
  background: #005580;
+}
+
+.liscensed {
+ color: #999;
+ margin: 0px 70px 15px 5px;
+ font-size: 14px;
+ line-height: 150%;
+}
+
+p {
+ color: #999;
+ font-size: 14px;
+ line-height: 150%;
+}
+
+.split-first-footer {
+ margin: 0px 0px 20px 0px;
+}
+
+.second-footer {
+ text-align: center;
+ color: #999;
+ font-size: 12px;
+ line-height: 150%;
+ margin: 50px 0px 50px 0px;
+}
+
+.img-right-content{
+ width: 90px;
+ vertical-align: middle;
+}
+
+.feature-content {
+ margin: 0px 0px 50px 0px;
 }
