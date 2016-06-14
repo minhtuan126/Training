@@ -99,7 +99,7 @@
 }
 
 .content-text {
- opacity: 1.0;	
+ 	opacity: 1.0;	
 }
 
 
@@ -220,8 +220,8 @@ h3 {
 }
 
 .block-right-content {
- background: rgb(229, 226, 222);
- padding: 10px 0px 10px 15px;
+	background: rgb(229, 226, 222);
+	padding: 10px 0px 10px 15px;
 }
 
 .titlerightBox {
@@ -393,7 +393,7 @@ li {
 	height: 40px;
 	line-height: 30px;
 }
-}
+
 
 .left_img_button:hover, .left_img_button:focus, .right_img_button:hover, .right_img_button:focus {
 	text-decoration: none;
