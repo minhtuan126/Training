@@ -2,6 +2,7 @@
 <html>
  <head>
   <title>Mezzanine - The Best Django CMS</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <link type="text/css" rel="stylesheet" href="CSS/reset.css">
    <link type="text/css" rel="stylesheet" href="CSS/main.css">
  </head>
@@ -27,9 +28,13 @@
     <div class="right-header">
      <div class="liscensed">Mezzanine is <a href="http://www.linfo.org/bsdlicense.html">BSD Licensed</a>. It can be freely used,modified, and redistributed commercially.
      </div>
-     <div class="bnt-text"><a class="txt_btntop" href="/admin/?mezzanine_login_interface=site&next=/blog/"><img src="./Images/glyphicons_051_eye_open.png"/>Try the live Demo </a>
+     <div class="bnt-text">
+      <a class="txt_btntop" href="/admin/?mezzanine_login_interface=site&next=/blog/">
+       <div class="content-button"><div  class="img-span-text"><img src="./Images/glyphicons_051_eye_open.png"/> </div><div class="content-text">Try the live Demo</div>
+       </div>
+      </a>
      </div>
-     <div class="btn-hbottom"><b>User:</b> demo  <b>Pass:</b> demo</div>
+     <div class="btn-hbottom">User:<b> demo </b>  Pass:<b> demo </b></div>
     </div>
    </div>				
   </div>
@@ -49,13 +54,13 @@
      <h3>Featured Sites</h3>
      <div class="feature-image">
       <div class="img_align">
-       <a class="left_img_button" href="left_img_button"><b><</b></a>
+       <a class="left_img_button" href="left_img_button">‹</a>
        <img class="img_feature_left" src="./Images/dvdnl-homepage.jpg">
        <img class="img_feature_center" src="./Images/quantifind-homepage.jpg">
        <img class="img_feature_right" src="./Images/modco-group-homepage.jpg">
-       <a class="right_img_button" href="right_img_button"><b>></b></a>
+       <a class="right_img_button" href="right_img_button">›</a>
       </div>
-      <a class="view-all" href="http://mezzanine.jupo.org/sites/">>View all</a>
+      <div class="view-all-link"><a class="view-all" href="http://mezzanine.jupo.org/sites/">View all</a></div>
      </div>
     </div>
     <div class="love-content">
@@ -104,7 +109,7 @@
    <div class="right-content">
    	<div class="block-right-content">
      <div class="btn-top-content">
-      <a class="txt_btntop" href=""><img src="./Images/glyphicons_181_download_alt.png">Get Mezzanine 4.1.0</a>
+      <a class="txt_btntop" href=""><div  class="img-span-text"><img src="./Images/glyphicons_181_download_alt.png"></div><div class="content-text">Get Mezzanine 4.1.0</div></a>
      </div>
      <div class="quickStart">
       <div class="titlerightBox">
@@ -123,12 +128,42 @@
       </div>
      </div>
      <div class="boxButton">
-      <div class="singleButton"><a class="styleBtnBold" href="http://mezzanine.jupo.org/docs/"><img class="img_btn_small" src="./Images/glyphicons_071_book.png">Documentation</a></div>
-      <div class="singleButton"><a class="styleBtnBold" href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html"><img class="img_btn_small" src="./Images/glyphicons_194_circle_question_mark.png">FAQs</a> <br/> </div>
-      <div class="singleButton"><a class="styleBtnBold" href="http://groups.google.com/group/mezzanine-users"><img class="img_btn_small" src="./Images/glyphicons_010_envelope.png">Mailing list</a></div>
-      <div class="singleButton"><a class="styleBtnBold" href="http://webchat.freenode.net/?channels=mezzanine"><img class="img_btn_small" src="./Images/glyphicons_309_comments.png">IRC</a></div>
-      <div class="singleButton"><a class="styleBtnBold" href="https://github.com/stephenmcd/mezzanine/issues"><img class="img_btn_small" src="./Images/glyphicons_341_github.png">Issue tracker</a></div>
-      <div class="singleButton"><a class="styleBtnBold" href="http://mezzanine.jupo.org/sites/"><img class="img_btn_small" src="./Images/glyphicons_012_heart.png">Sites Gallery</a></div>
+      <div class="singleButton">
+       <a class="styleBtnBold" href="http://mezzanine.jupo.org/docs/">
+       <div class="img-left-small"><img class="img_btn_small" src="./Images/glyphicons_071_book.png"></div>
+       <div class="text-left-content-small">Documentation</div>
+       </a>
+      </div>
+      <div class="singleButton">
+       <a class="styleBtnBold" href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html">
+        <div class="img-left-small"><img class="img_btn_small" src="./Images/glyphicons_194_circle_question_mark.png"></div>
+        <div class="text-left-content-small">FAQs</div>
+       </a> <br/> 
+      </div>
+      <div class="singleButton">
+       <a class="styleBtnBold" href="http://groups.google.com/group/mezzanine-users">
+         <div class="img-left-small"><img class="img_btn_small" src="./Images/glyphicons_010_envelope.png"></div>
+         <div class="text-left-content-small">Mailing list</div>
+        </a>
+       </div>
+      <div class="singleButton">
+       <a class="styleBtnBold" href="http://webchat.freenode.net/?channels=mezzanine">
+        <div class="img-left-small"><img class="img_btn_small" src="./Images/glyphicons_309_comments.png"></div>
+        <div class="text-left-content-small">IRC</div>
+       </a>
+      </div>
+      <div class="singleButton">
+       <a class="styleBtnBold" href="https://github.com/stephenmcd/mezzanine/issues">
+        <div class="img-left-small"><img class="img_btn_small" src="./Images/glyphicons_341_github.png"></div>
+        <div class="text-left-content-small">Issue tracker</div>
+       </a>
+      </div>
+      <div class="singleButton">
+       <a class="styleBtnBold" href="http://mezzanine.jupo.org/sites/">
+        <div class="img-left-small"><img class="img_btn_small" src="./Images/glyphicons_012_heart.png"></div>
+        <div class="text-left-content-small">Sites Gallery</div>
+       </a>
+      </div>
      </div>
     </div>
     <div class="content-right-finish">
