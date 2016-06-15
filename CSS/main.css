@@ -7,7 +7,7 @@
  }
 
 .bg-top-header {
-	height: 40px;
+	padding: 0px 0px 40px 0px; 
  	background: rgb(229, 226, 222); 
  }
 
@@ -22,7 +22,17 @@
 
 .logo-header {
  	width: 100%;
- 	height: 300px; 
+ 	padding: 0px 0px 280px 0px; 
+}
+
+
+.content-comment {
+	font-style: italic;
+	padding: 0px 15px 10px 0px; 
+}
+
+.author {
+	font-size: 14px;
 }
 
 .logo-header div {
@@ -40,8 +50,8 @@
 }
 
 .right-header	{
-	width: 22%; 
-	padding: 60px 0px 20px 0px;
+	width: 21%; 
+	padding: 40px 0px 20px 0px;
 }
 
 .title {
@@ -50,6 +60,8 @@
 	font-size : 14px;
 	line-height: 24px;
 	color: rgb(189, 54, 47);
+	font-weight: bold;
+	padding: 0px 80px 0px 0px; 
 }
 
 .top-right-image {
@@ -74,10 +86,10 @@
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	color: #ffffff; 
 	display: inline-block;
-	border-radius: 4px;
+	border-radius: 5px;
 	background: rgb(189, 54, 47);
 	margin: 10px 0px 10px 0px; 
-	padding: 12px 25px 12px 25px;
+	padding: 12px 23px 12px 23px;
 	text-transform: uppercase; 
 	text-decoration: none; 
 
@@ -99,7 +111,7 @@
 }
 
 .content-text {
- 	opacity: 1.0;	
+ 	margin: 0px 0px 0px 38px; 
 }
 
 
@@ -141,7 +153,7 @@
 }
 
 .right-content {
-	width: 22%; 
+	width: 21%; 
 	padding: 40px 0px 20px 0px;
 }
 
@@ -167,7 +179,7 @@ h3 {
 	text-transform: uppercase; 
 }
 
-.first-column-content {
+.column-content-blog {
 	width: 21%;
 	padding: 0px 40px 0px 0px; 
 	color: #999;
@@ -221,7 +233,8 @@ h3 {
 
 .block-right-content {
 	background: rgb(229, 226, 222);
-	padding: 10px 0px 10px 15px;
+	padding: 10px 0px 10px 7px;
+	border-radius: 4px;
 }
 
 .titlerightBox {
@@ -236,7 +249,7 @@ h3 {
 	border-radius: 4px;
 	background: #222;
 	padding: 20px 5px 20px 5px;
-	margin: 0px 15px 0px 0px;
+	margin: 0px 16px 0px 10px;
 	font-size: 11.5px;
 	font-family: Menlo, Monaco, 'Andale Mono', 'lucida console', 'Courier New', monospace;
 }
@@ -364,7 +377,7 @@ li {
 	width: 50%;
 }
 
-.left_img_button {
+.left_feature_site_button {
 	position: absolute;
 	background: #197499;
 	border: 3px solid #ffffff;
@@ -379,7 +392,7 @@ li {
 	line-height: 30px;
 }
 
-.right_img_button {
+.right_feature_site_button {
 	position: absolute;
 	background: #197499;
 	border: 3px solid #ffffff;
@@ -395,14 +408,14 @@ li {
 }
 
 
-.left_img_button:hover, .left_img_button:focus, .right_img_button:hover, .right_img_button:focus {
+.left_feature_site_button:hover, .left_feature_site_button:focus, .right_feature_site_button:hover, .right_feature_site_button:focus {
 	text-decoration: none;
 	background: #005580;
 }
 
 .liscensed {
-	color: #999;
-	margin: 0px 40px 15px 5px;
+	color: #777;
+	margin: 0px 25px 15px 5px;
  	font-size: 14px;
 	line-height: 150%;
 }
@@ -426,7 +439,7 @@ p {
 }
 
 .img-right-content{
-	width: 90px;
+	width: 80px;
 	vertical-align: middle;
 }
 
@@ -435,13 +448,16 @@ p {
 }
 
 .img-span-text {
+	position: absolute;
 	opacity: 0.6;
-	margin: 0px 10px 0px 0px;
+	margin: -10px 10px 0px -20px;
+	padding: 10px 200px 7px 20px;
 }
 
 .img-span-text:hover, .img-span-text:focus {
 	opacity: 1.0;
-	margin: 0px 10px 0px 0px;
+	margin: -10px 10px 0px -20px;
+	padding: 10px 200px 7px 20px;
 }
 
 .love-content {
