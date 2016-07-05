@@ -6,6 +6,7 @@
   <link rel="icon" type="image/vnd.microsoft.icon" href="Images/favicon.ico">
   <link type="text/css" rel="stylesheet" href="CSS/reset.css">
   <link type="text/css" rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
  </head>
  <body>
   <header class="l-header">
@@ -25,10 +26,10 @@
      <div class="logo"> <a href="#"> <img src="Images/logo.gif" alt="logo" /> </a> </div>
      <div class="search">
       <input type="text" name="input_text"/>
-      <button>Search</button>
+      <button><i class="fa fa-search"></i></button>
      </div>
      <div class="cart">
-      <button>Cart</button>
+      <button><i class="fa fa-shopping-cart"></i></button>
       Giỏ Hàng:0 Items
      </div>
     </div>
@@ -36,16 +37,154 @@
   </header>
   <div class="l-nav">
    <ul class="nav-menu">
-    <li class="menu-items"> <a href="#">Trang Chủ</a> </li>
-    <li class="menu-items"> <a href="#">Sản phẩm</a> </li>
-    <li class="menu-items"> <a href="#">Khuyến Mãi</a> </li>
-    <li class="menu-items"> <a href="#">Giới Thiệu</a> </li>
-    <li class="menu-items"> <a href="#">Tin Tức</a> </li>
-    <li class="menu-items"> <a href="#">Liên Hệ</a> </li>
+    <li class="menu-item"> <a href="#">Trang Chủ</a> </li>
+    <li class="menu-item"> <a href="#">Sản phẩm</a> </li>
+    <li class="menu-item"> <a href="#">Khuyến Mãi</a> </li>
+    <li class="menu-item"> <a href="#">Giới Thiệu</a> </li>
+    <li class="menu-item"> <a href="#">Tin Tức</a> </li>
+    <li class="menu-item"> <a href="#">Liên Hệ</a> </li>
    </ul>
    <div class="hotline"> Hotline : 0942.691.366 - 0164.980.2916 </div>
   </div>
+ 
   <div class="l-content">
+   
+   <div class="l-top-shop">
+    <div class="box-items">
+     <i class="fa fa-truck"></i>
+     <div class="text-top-box"><h3>Miễn phí vận chuyển</h3> Miễn phí Ship Đơn hàng &gt; 200K</div>
+    </div>
+    <div class="box-items">
+     <i class="fa fa-laptop"></i>
+     <div class="text-top-box"><h3>Đặt hàng online</h3>Đặt hàng dễ dàng trên hệ thống</div>
+    </div>
+    <div class="box-items">
+     <i class="fa fa-usd"></i>
+     <div class="text-top-box"><h3>Đổi Trả Hàng</h3>Chúng tôi đổi trả hàng cho đến khi bạn hài lòng.</div>
+    </div>
+   </div>
+
+   <div class="l-right-shop">
+    <div class="menu-list-product">
+     <div class="title-menu"><h3><i class="fa fa-bars"></i>  Danh Mục Sản Phẩm</h3></div>
+     <ul class="menu-product">
+      <li class="menu-product-item"> <a href="#"> Áo sơ mi Nữ </a></li>
+      <li class="menu-product-item"> <a href="#"> Áo Khoác Nữ </a></li>
+      <li class="menu-product-item"> <a href="#"> Chân Váy </a></li>
+      <li class="menu-product-item"> <a href="#"> Chân Váy Xòe </a></li>
+      <li class="menu-product-item"> <a href="#"> Áo thun Nữ </a></li>
+      <li class="menu-product-item"> <a href="#"> Phụ Kiện </a></li>
+      <li class="menu-product-item"> <a href="#"> Túi Xách </a></li>
+      <li class="menu-product-item"> <a href="#"> Quần áo ngủ </a></li>
+     </ul>
+    </div>
+    <div class="best-seller">
+   	 <div class="title-menu"><h3><i class="fa fa-chain-broken"></i> Sản Phẩm Bán Chạy</h3></div>
+   	 <div class="seller-items">
+   	  <a href="#"> <img src="Images/chanvay001.jpeg" alt="chan vay 001"></a>
+   	  <div class="seller-text">
+       <a href="#">Chân Váy 001</a>
+   	  </div>
+   	  <div class="old_price">
+   	   25.000 Đ
+   	  </div>
+   	  <div class="price-sell">
+   	   20.000 Đ
+   	  </div>		
+   	 </div>
+   	 <div class="seller-items">
+   	  <a href="#"> <img src="Images/beanl.jpeg" alt="beanl"></a>
+   	  <div class="seller-text">
+       <a href="#">Áo khoác nữ có nón BeanK</a>
+   	  </div>
+   	  <div class="old_price">
+   	   22.000 Đ
+   	  </div>
+   	  <div class="price-sell">
+   	   15.000 Đ
+   	  </div>			
+   	 </div>
+   	 <div class="seller-items">
+   	  <a href="#"> <img src="Images/vayngan.jpeg" alt="vayngan"></a>
+   	  <div class="seller-text">
+       <a href="#">Chân váy ngắn dáng xòe</a>
+   	  </div>
+   	  <div class="old_price">
+   	   22.000 Đ
+   	  </div>
+   	  <div class="price-sell">
+   	   16.000 Đ
+   	  </div>			
+   	 </div>
+    </div>
+
+    <div class="news-update">
+     <div class="title-menu"><h3><i class="fa fa-chain-broken"></i> Tin Tức Cập Nhật</h3></div>
+     <div class="news-item">
+      <div class="title-news">
+       <a href="#">7 bí quyết để trở thành một fashion blogger thực thụ </a>
+   	  </div>
+   	  <a href="#"> <img src="Images/new1.jpg" alt="new1"></a>
+   	  <div class="news-content">Loại rau này gần giống cà rốt nhưng có màu sáng và ngọt hơn, hương...</div>
+   	 </div>
+   	 <div class="news-item">
+      <div class="title-news">
+       <a href="#">Kiếm tiền tỷ từ việc "chém gió" trên mạng </a>
+   	  </div>
+   	  <a href="#"> <img src="Images/new2.jpg" alt="new2"></a>
+   	  <div class="news-content">Loại rau này gần giống cà rốt nhưng có màu sáng và ngọt hơn, hương...</div>
+   	 </div>
+   	 <div class="news-item">
+      <div class="title-news">
+       <a href="#">Khách hàng đánh nhau chí tử trong ngày thứ 6 đen tối  </a>
+   	  </div>
+   	  <a href="#"> <img src="Images/new3.jpg" alt="new3"></a>
+   	  <div class="news-content">Loại rau này gần giống cà rốt nhưng có màu sáng và ngọt hơn, hương...</div>
+   	 </div>
+   	 <div class="news-item">
+      <div class="title-news">
+       <a href="#">Gặp gỡ nhà thiết kế xinh đẹp Vân Anh Scarlet. </a>
+   	  </div>
+   	  <a href="#"> <img src="Images/new4.jpg" alt="new4"></a>
+   	  <div class="news-content">Loại rau này gần giống cà rốt nhưng có màu sáng và ngọt hơn, hương...</div>
+   	 </div>
+   	 <div class="news-large-image">
+   	  <a href="#"> <img src="Images/new5.jpg" alt="new5"></a>
+   	  <a href="#"> <img src="Images/new6.jpeg" alt="new6"></a>
+   	 </div>
+    </div>
+
+    <div class="sumup">
+     <div class="title-menu"><h3><i class="fa fa-chain-broken"></i> Thống kê truy cập</h3></div>
+     <div class="all-sumup">6180</div>
+     <div class="sumup-item">
+      <img src="Images/vtoday.gif" alt="today" />
+      <div class="text-sum">Hôm nay</div>
+      <div class="text-number">1</div>
+     </div>
+     <div class="sumup-item">
+      <img src="Images/vyesterday.gif" alt="yesterday" />
+      <div class="text-sum">Hôm qua</div>
+      <div class="text-number">14</div>
+     </div>
+     <div class="sumup-item">
+      <img src="Images/vweek.gif" alt="week" />
+      <div class="text-sum">Tuần</div>
+      <div class="text-number">28</div>
+     </div>
+     <div class="sumup-item">
+      <img src="Images/vmonth.gif" alt="month" />
+      <div class="text-sum">Tháng</div>
+      <div class="text-number">79</div>
+     </div>
+     <div class="sumup-item">
+      <img src="Images/vall.gif" alt="all" />
+      <div class="text-sum">Tổng</div>
+      <div class="text-number">6180</div>
+     </div>
+    </div>
+   </div>
+   
   </div>
   <footer class="l-footer">
   	
