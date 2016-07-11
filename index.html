@@ -2,6 +2,7 @@
 <html>
  <head>
   <title>Shop Fashion Central | Thời trang cho phái Đẹp</title>
+  <link type="text/css" rel="stylesheet" href="CSS/css.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="icon" type="image/vnd.microsoft.icon" href="Images/favicon.ico">
   <link type="text/css" rel="stylesheet" href="CSS/reset.css">
@@ -10,30 +11,39 @@
  </head>
  <body>
   <header class="l-header">
-   <div class="container">
-    <div class="l-topheader">
+   <div class="l-topheader">
+    <div class="container">
      <div class="phoneNumber">
       <img class="img-phone" src="Images/phone-24.png" alt="icon-phone" /> 
       Điện thoại: 0942.691.366
      </div>
-     <div class="link-">
-      <a href="#">Sản phẩm bạn thích</a>
-      <a href="#">Giỏ hàng</a>
-      <a href="#">Kiểm tra</a>
-     </div>
-    </div>
-    <div class="l-contentheader">
-     <div class="logo"> <a href="#"> <img src="Images/logo.gif" alt="logo" /> </a> </div>
-     <div class="search">
-      <input type="text" name="input_text"/>
-      <button><i class="fa fa-search"></i></button>
-     </div>
-     <div class="cart">
-      <button><i class="fa fa-shopping-cart"></i></button>
-      Giỏ Hàng:0 Items
+     <div class="linkproduct">
+      <a class="linkproduct1" href="#">Sản phẩm bạn thích</a>
+      <a class="linkproduct1" href="#">Giỏ hàng</a>
+      <a class="linkproduct1" href="#">Kiểm tra</a>
      </div>
     </div>
    </div>
+   <div class="l-contentheader">
+    <div class="container">
+     <div class="logo"> <a href="#"> <img src="Images/logo.gif" alt="logo" /> </a> </div>
+     <div class="search">
+      <input class="inputbox" type="text" name="input_text" value="Tìm kiếm sản phẩm..." />
+      <button class="btn_search"><i class="fa fa-search"></i></button>
+     </div>
+     <div class="cart">
+      <a class="link-cart" href="#">
+       <div class="Icon_cart">
+        <i class="fa fa-shopping-cart"></i>
+       </div> 
+       <span class="link-cart-text"> Giỏ Hàng:0 Items 
+       <i class="fa fa-caret-down"></i>
+       </span>
+      </a>
+     </div>
+    </div>
+   </div>
+   
   </header>
   <div class="l-nav">
    <ul class="nav-menu">
