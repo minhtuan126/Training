@@ -3,6 +3,10 @@
   margin: 0px; 
  }
 
+ a {
+   text-decoration: none;
+ }
+
  .l-topheader {
    font-family: 'Roboto Condensed',sans-serif !important;
    font-size : 14px;
@@ -229,4 +233,38 @@
 
 .menuLeftBox__title {
   padding: 0px 0px 0px 34px;
+}
+
+.table {
+  display: inline;
+}
+
+.table__item {
+  text-decoration: none;
+  list-style: none;
+  font: 14px/20px 'Roboto Condensed', sans-serif !important
+ }
+
+.link--uppercase {
+  text-transform: uppercase;
+}
+
+.link--pink {
+  color: #D60202;
+}
+
+.link--pink:hover, .link--pink:focus {
+  color: #54B689;
+}
+
+.link--spaceleft {
+  padding: 0px 0px 0px 20px; 
+}
+
+.table__hr hr {
+  color: #ddd;
+  background-color: #ddd;
+  border: 0;
+  height: 1px;
+  width: 90%;
 }
