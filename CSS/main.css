@@ -203,12 +203,12 @@
   font-family: 'Roboto Condensed',sans-serif !important;
   float: left;
   width: 25%;
-  padding: 25px 0px 0px 0;
+  padding: 30px 0px 0px 0;
 }
 
 .text__titleLeft {
-  padding: 8px 0px 8px 18px;
-  margin: 0 28px 0 0;
+  padding: 11px 0px 11px 22px;
+  margin: 0 24px 0px 0;
 }
 
 .text--backgroundPink {
@@ -237,6 +237,8 @@
 
 .table {
   display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 .table__item {
@@ -244,6 +246,11 @@
   list-style: none;
   font: 14px/20px 'Roboto Condensed', sans-serif !important
  }
+
+ .table__item--space {
+  padding: 9px 0 1px 0;
+ }
+
 
 .link--uppercase {
   text-transform: uppercase;
@@ -267,4 +274,26 @@
   border: 0;
   height: 1px;
   width: 90%;
+  margin: 10px 0 0 0;
+}
+
+.menu_sell_item__img {
+  float: left;
+}
+
+.menu_sell_item__details {
+
+}
+
+.menu_sell_item__hr hr{
+  margin: 50px 0 0 0;
+  color: #ddd;
+  background-color: #ddd;
+  border: 0;
+  height: 1px;
+  width: 90%;  
+}
+
+.menuLeftBox__img--width {
+  width: 100%;
 }
