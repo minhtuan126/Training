@@ -1,0 +1,45 @@
+/*
+Manage css of image
+*/
+
+/*
+Image small icon sumup left bar
+*/
+.menuLeftBoxSumup__img {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+/*
+Image news of left bar
+*/
+.menuLeftBoxNews_img {
+  float: left;
+}
+
+/*
+Image ads in left bar
+*/
+.menuLeftBox__img--width {
+  width: 92%;
+}
+
+.menuLeftBoxImage {
+  padding: 0px 0px 30px 0px;
+}
+
+/*
+image besr seller in left bar
+*/
+.menuSellItem__img {
+  float: left;
+}
+
+/*
+image center
+*/
+.centerImage_img {
+  width: 100%;
+  text-align: center;
+  margin: -36px 0 0 0;
+}
