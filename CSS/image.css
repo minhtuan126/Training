@@ -43,3 +43,19 @@ image center
   text-align: center;
   margin: -36px 0 0 0;
 }
+
+.bigAdsCenter__img {
+  width: 100%;
+}
+
+/*
+image items main center
+*/
+.itemNewSell__imgNew {
+  position: absolute;
+  margin: -10px 0px 0 -37px;
+}
+
+.itemNewSell__img {
+  position: relative;
+}

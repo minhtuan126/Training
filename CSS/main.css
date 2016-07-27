@@ -198,6 +198,9 @@ general for text
 .text--oldprice {
   text-decoration: line-through;
   color: #888;
+}
+
+.text--bold {
   font-weight: bold;
 }
 
@@ -257,7 +260,7 @@ best seller in left bar
 }
 
 .menuSellItem__hr hr{
-  margin: 45px 0 0 0;
+  margin: 32px 0 0 0;
   color: #ddd;
   background-color: #ddd;
   border: 0;
@@ -309,6 +312,7 @@ Sumup people vist page
 main page
 */
 .l-main-content {
+  font-family: 'Roboto Condensed',sans-serif !important;
   margin: 0px 0px 0px 300px;
   padding: 30px 0 0 0;
 }
@@ -320,3 +324,76 @@ image center
   height: 331px;
   overflow: hidden;
 }
+
+/*
+item new sell in main content
+*/
+.mainTitleSmall {
+  font: 18px/20px 'Roboto Condensed', sans-serif !important;
+  padding: 20px 0 20px 0;
+}
+
+.itemNewSellFirst {
+  padding: 10px 0 10px 16px;
+  float: left;
+}
+
+.itemNewSell {
+  padding: 10px 0 10px 31px;
+  float: left;
+}
+
+.itemNewSell__name {
+  padding: 5px 0 0 0px;
+  text-align: center;
+}
+
+.itemNewSell__hr hr {
+  color: #ddd;
+  background-color: #ddd;
+  border: 0;
+  height: 1px;
+  margin: 3px 0 0 0;
+}
+
+.itemNewSell__price {
+  padding: 15px 0 15px 0;
+}
+
+.itemNewSell__newPrice {
+  padding: 0 0 0 30px;
+}
+
+.itemNewSell__oldPrice {
+  padding: 0 0 0 15px;
+}
+
+.itemNewSell__rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+.itemNewSell__rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: #888;
+}
+
+.itemNewSell__rating > span:hover:before,
+.itemNewSell__rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: gold;
+}
+
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+
+/*
+;ayer demo 3
+*/

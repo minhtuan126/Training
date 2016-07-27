@@ -31,6 +31,11 @@ general for link
 .link--spaceleft {
   padding: 0px 0px 0px 20px; 
 }
+
+.link--15 {
+  font-size: 15px;
+}
+
 /*
 link cart 
 */
