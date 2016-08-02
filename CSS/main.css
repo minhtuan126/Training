@@ -389,11 +389,75 @@ item new sell in main content
    color: gold;
 }
 
-.rating > span:hover,
-.rating > span:hover ~ span {
+.itemNewSell__rating > span:hover,
+.itemNewSell__rating > span:hover ~ span {
   color: transparent;
 }
 
+.l-demo-2 {
+  padding: 0 0 745px 0;
+}
 /*
 ;ayer demo 3
 */
+.l-demo-3 {
+  padding: 40px 0 0 0;
+}
+
+.itemDemo3 {
+  float: left;
+  width: 32.5%;
+  padding: 0px 0px 40px 5px;
+}
+
+.listItemsDemo3__details {
+  float: left;
+  padding: 0 0 0 15px;
+}
+
+.itemDemo3__rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: #888;
+}
+
+.itemDemo3__rating > span:hover:before,
+.itemDemo3__rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: gold;
+}
+
+.itemDemo3__rating > span:hover,
+.itemDemo3__rating > span:hover ~ span {
+  color: transparent;
+}
+
+.itemDemo3__oldPrice {
+  padding: 0 0 8px 0;
+}
+
+.itemDemo3__itemName {
+  padding: 0 0 8px 0;
+}
+
+.itemDemo3__newPrice {
+  padding: 0 0 8px 0;
+}
+
+/*
+About bottom page
+*/
+.l-bottom-content {
+  font:'Roboto Condensed',sans-serif !important;
+  font-size: 14px;
+}
+
+.itemAbout {
+  float: left;
+}
+
+.itemAboutFashion {
+  float: left;
+}

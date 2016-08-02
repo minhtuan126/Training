@@ -59,3 +59,10 @@ image items main center
 .itemNewSell__img {
   position: relative;
 }
+/*
+item demo 3
+*/
+.itemDemo3__img {
+  float: left;
+  width: 40%;
+}

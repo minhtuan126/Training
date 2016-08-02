@@ -114,3 +114,10 @@ link menu item on top bar
 .menuProduct__item:focus {
   color: #42A890;
 }
+
+/*
+*/
+.link--blackNonHover {
+  color: #000;
+  font-size: 14px;
+}
